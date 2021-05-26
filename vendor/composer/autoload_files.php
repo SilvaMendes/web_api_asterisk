@@ -19,6 +19,7 @@ return array(
     'd4e415514e4352172d58f02433fa50e4' => $vendorDir . '/amphp/socket/src/functions.php',
     '1c2dcb9d6851a7abaae89f9586ddd460' => $vendorDir . '/amphp/socket/src/Internal/functions.php',
     '3d8ee50db78074a9235f0c2008c26b42' => $vendorDir . '/amphp/http/src/functions.php',
+    'fe0c00a870e2d610c9e10f84f38296e1' => $vendorDir . '/amphp/react-adapter/etc/Factory.php',
     '77e5a577434e31d19d8dd6aeceac1ff4' => $vendorDir . '/amphp/http-client/src/Internal/functions.php',
     '3ff3609f8c8173833eaa97521a843531' => $vendorDir . '/amphp/http-server/src/Middleware/functions.php',
     'a56027adf84a32da155734de2d858e65' => $vendorDir . '/amphp/http-server/src/functions.php',

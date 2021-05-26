@@ -6,10 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'React\\EventLoop\\' => array($vendorDir . '/react/event-loop/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
     'LibDNS\\' => array($vendorDir . '/daverandom/libdns/src'),
-    'League\\Uri\\' => array($vendorDir . '/league/uri-interfaces/src', $vendorDir . '/league/uri/src', $vendorDir . '/league/uri-parser/src'),
+    'League\\Uri\\' => array($vendorDir . '/league/uri/src', $vendorDir . '/league/uri-interfaces/src', $vendorDir . '/league/uri-parser/src'),
     'Kelunik\\Certificate\\' => array($vendorDir . '/kelunik/certificate/lib'),
     'Amp\\WindowsRegistry\\' => array($vendorDir . '/amphp/windows-registry/lib'),
     'Amp\\Websocket\\Server\\' => array($vendorDir . '/amphp/websocket-server/src'),
@@ -19,6 +20,7 @@ return array(
     'Amp\\Sql\\' => array($vendorDir . '/amphp/sql/src'),
     'Amp\\Socket\\' => array($vendorDir . '/amphp/socket/src'),
     'Amp\\Serialization\\' => array($vendorDir . '/amphp/serialization/src'),
+    'Amp\\ReactAdapter\\' => array($vendorDir . '/amphp/react-adapter/src'),
     'Amp\\Process\\' => array($vendorDir . '/amphp/process/lib'),
     'Amp\\Postgres\\' => array($vendorDir . '/amphp/postgres/src'),
     'Amp\\Parser\\' => array($vendorDir . '/amphp/parser/lib'),

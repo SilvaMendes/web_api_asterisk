@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '2c8dff74ca25a5a6936e6d21ba2ad1ecf5ddced7',
+    'reference' => 'bd2562f6f6f4af5ac99ca1040cacfd6835401635',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '2c8dff74ca25a5a6936e6d21ba2ad1ecf5ddced7',
+      'reference' => 'bd2562f6f6f4af5ac99ca1040cacfd6835401635',
     ),
     'amphp/amp' => 
     array (
@@ -136,6 +136,15 @@
       array (
       ),
       'reference' => 'b88c6aef75c0b22f6f021141dd2d5e7c5db4c124',
+    ),
+    'amphp/react-adapter' => 
+    array (
+      'pretty_version' => 'v2.1.0',
+      'version' => '2.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6a2bd361986e3e378471c14f5cfdbb5ee8d97162',
     ),
     'amphp/serialization' => 
     array (
@@ -280,6 +289,15 @@
       array (
       ),
       'reference' => 'd49695b909c3b7628b6289db5479a1c204601f11',
+    ),
+    'react/event-loop' => 
+    array (
+      'pretty_version' => 'v1.1.1',
+      'version' => '1.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6d24de090cd59cfc830263cfba965be77b563c13',
     ),
   ),
 );

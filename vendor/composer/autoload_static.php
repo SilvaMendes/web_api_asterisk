@@ -20,6 +20,7 @@ class ComposerStaticInit3d5e23752df1ae93b2e8c3709ba3f1e2
         'd4e415514e4352172d58f02433fa50e4' => __DIR__ . '/..' . '/amphp/socket/src/functions.php',
         '1c2dcb9d6851a7abaae89f9586ddd460' => __DIR__ . '/..' . '/amphp/socket/src/Internal/functions.php',
         '3d8ee50db78074a9235f0c2008c26b42' => __DIR__ . '/..' . '/amphp/http/src/functions.php',
+        'fe0c00a870e2d610c9e10f84f38296e1' => __DIR__ . '/..' . '/amphp/react-adapter/etc/Factory.php',
         '77e5a577434e31d19d8dd6aeceac1ff4' => __DIR__ . '/..' . '/amphp/http-client/src/Internal/functions.php',
         '3ff3609f8c8173833eaa97521a843531' => __DIR__ . '/..' . '/amphp/http-server/src/Middleware/functions.php',
         'a56027adf84a32da155734de2d858e65' => __DIR__ . '/..' . '/amphp/http-server/src/functions.php',
@@ -34,6 +35,10 @@ class ComposerStaticInit3d5e23752df1ae93b2e8c3709ba3f1e2
     );
 
     public static $prefixLengthsPsr4 = array (
+        'R' => 
+        array (
+            'React\\EventLoop\\' => 16,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
@@ -58,6 +63,7 @@ class ComposerStaticInit3d5e23752df1ae93b2e8c3709ba3f1e2
             'Amp\\Sql\\' => 8,
             'Amp\\Socket\\' => 11,
             'Amp\\Serialization\\' => 18,
+            'Amp\\ReactAdapter\\' => 17,
             'Amp\\Process\\' => 12,
             'Amp\\Postgres\\' => 13,
             'Amp\\Parser\\' => 11,
@@ -74,6 +80,10 @@ class ComposerStaticInit3d5e23752df1ae93b2e8c3709ba3f1e2
     );
 
     public static $prefixDirsPsr4 = array (
+        'React\\EventLoop\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/react/event-loop/src',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
@@ -88,8 +98,8 @@ class ComposerStaticInit3d5e23752df1ae93b2e8c3709ba3f1e2
         ),
         'League\\Uri\\' => 
         array (
-            0 => __DIR__ . '/..' . '/league/uri-interfaces/src',
-            1 => __DIR__ . '/..' . '/league/uri/src',
+            0 => __DIR__ . '/..' . '/league/uri/src',
+            1 => __DIR__ . '/..' . '/league/uri-interfaces/src',
             2 => __DIR__ . '/..' . '/league/uri-parser/src',
         ),
         'Kelunik\\Certificate\\' => 
@@ -127,6 +137,10 @@ class ComposerStaticInit3d5e23752df1ae93b2e8c3709ba3f1e2
         'Amp\\Serialization\\' => 
         array (
             0 => __DIR__ . '/..' . '/amphp/serialization/src',
+        ),
+        'Amp\\ReactAdapter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/react-adapter/src',
         ),
         'Amp\\Process\\' => 
         array (
