@@ -31,4 +31,5 @@ return array(
     '384cf4f2eb4d2f896db72315a76066ad' => $vendorDir . '/amphp/parallel/lib/Worker/functions.php',
     '4da7a33b8388a4c58699a4f48894fced' => $vendorDir . '/amphp/postgres/src/functions.php',
     '33e77b43ad8185a87488d9c8e2900fb0' => $vendorDir . '/amphp/postgres/src/Internal/functions.php',
+    '4be4fbd9f5a89207b1fd1c85ae339dd7' => $vendorDir . '/amphp/websocket-client/src/functions.php',
 );

@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'bd2562f6f6f4af5ac99ca1040cacfd6835401635',
+    'reference' => '5df19a2d8bf64649f5f857188bf13411d3257898',
     'name' => '__root__',
   ),
   'versions' => 
@@ -44,7 +44,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'bd2562f6f6f4af5ac99ca1040cacfd6835401635',
+      'reference' => '5df19a2d8bf64649f5f857188bf13411d3257898',
     ),
     'amphp/amp' => 
     array (
@@ -225,6 +225,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '6752ecfcb4deba23b95ab3fbd0d427326fcac564',
+    ),
+    'amphp/websocket-client' => 
+    array (
+      'pretty_version' => 'v1.0.0',
+      'version' => '1.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '173b54137cdcd4288702f615f05c1029e613ba37',
     ),
     'amphp/websocket-server' => 
     array (

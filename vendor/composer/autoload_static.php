@@ -32,6 +32,7 @@ class ComposerStaticInit3d5e23752df1ae93b2e8c3709ba3f1e2
         '384cf4f2eb4d2f896db72315a76066ad' => __DIR__ . '/..' . '/amphp/parallel/lib/Worker/functions.php',
         '4da7a33b8388a4c58699a4f48894fced' => __DIR__ . '/..' . '/amphp/postgres/src/functions.php',
         '33e77b43ad8185a87488d9c8e2900fb0' => __DIR__ . '/..' . '/amphp/postgres/src/Internal/functions.php',
+        '4be4fbd9f5a89207b1fd1c85ae339dd7' => __DIR__ . '/..' . '/amphp/websocket-client/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -57,6 +58,7 @@ class ComposerStaticInit3d5e23752df1ae93b2e8c3709ba3f1e2
         array (
             'Amp\\WindowsRegistry\\' => 20,
             'Amp\\Websocket\\Server\\' => 21,
+            'Amp\\Websocket\\Client\\' => 21,
             'Amp\\Websocket\\' => 14,
             'Amp\\Sync\\' => 9,
             'Amp\\Sql\\Common\\' => 15,
@@ -113,6 +115,10 @@ class ComposerStaticInit3d5e23752df1ae93b2e8c3709ba3f1e2
         'Amp\\Websocket\\Server\\' => 
         array (
             0 => __DIR__ . '/..' . '/amphp/websocket-server/src',
+        ),
+        'Amp\\Websocket\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amphp/websocket-client/src',
         ),
         'Amp\\Websocket\\' => 
         array (

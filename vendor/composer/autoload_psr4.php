@@ -14,6 +14,7 @@ return array(
     'Kelunik\\Certificate\\' => array($vendorDir . '/kelunik/certificate/lib'),
     'Amp\\WindowsRegistry\\' => array($vendorDir . '/amphp/windows-registry/lib'),
     'Amp\\Websocket\\Server\\' => array($vendorDir . '/amphp/websocket-server/src'),
+    'Amp\\Websocket\\Client\\' => array($vendorDir . '/amphp/websocket-client/src'),
     'Amp\\Websocket\\' => array($vendorDir . '/amphp/websocket/src'),
     'Amp\\Sync\\' => array($vendorDir . '/amphp/sync/src'),
     'Amp\\Sql\\Common\\' => array($vendorDir . '/amphp/sql-common/src'),
